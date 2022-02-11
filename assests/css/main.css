@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    background-color: green;
+}
+ul{
+    display: flex;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-left: 800px;
+}
+li{
+    margin-left: 20px;
+}
+li a{
+    color: whitesmoke;
+}
+li a:hover{
+    letter-spacing: 2px;
+    transition: .5s;
+    background-color: #fff;
+    padding: 20px;
+    color: rgb(34, 30, 5);
+    border-radius: 5px;
+}
